@@ -2,7 +2,6 @@ package medicamento;
 
 public class Medicamento { // Classe para representar um medicamento
     private String nome;
-    private String fabricante;
     private String classeTerapeutica;
     private String mecanismodeAcao;
     private String indicacao;
@@ -10,17 +9,17 @@ public class Medicamento { // Classe para representar um medicamento
     private String efeitosColaterais;
     private String interacaoMedicamentosa;
 
-    public Medicamento(String nome, String fabricante, String classeTerapeutica, String mecanismodeAcao, String indicacao, String contraIndicacao, String efeitosColaterais, String interacaoMedicamentosa) {
+    public Medicamento(String nome, String classeTerapeutica, String mecanismodeAcao, String indicacao,
+            String contraIndicacao, String efeitosColaterais, String interacaoMedicamentosa) {
         // Construtor para inicializar os atributos do medicamento
         this.nome = nome;
-        this.fabricante = fabricante;
         this.classeTerapeutica = classeTerapeutica;
         this.mecanismodeAcao = mecanismodeAcao;
         this.indicacao = indicacao;
-        this.contraIndicacao = contraIndicacao; 
+        this.contraIndicacao = contraIndicacao;
         this.efeitosColaterais = efeitosColaterais;
         this.interacaoMedicamentosa = interacaoMedicamentosa;
-        
+
     }
 
     // Getters e Setters para acessar e modificar os atributos do medicamento
@@ -30,14 +29,6 @@ public class Medicamento { // Classe para representar um medicamento
 
     public void setNome(String nome) {
         this.nome = nome;
-    }
-
-    public String getFabricante() {
-        return fabricante;
-    }
-
-    public void setFabricante(String fabricante) {
-        this.fabricante = fabricante;
     }
 
     public String getClasseTerapeutica() {
@@ -87,7 +78,5 @@ public class Medicamento { // Classe para representar um medicamento
     public void setInteracaoMedicamentosa(String interacaoMedicamentosa) {
         this.interacaoMedicamentosa = interacaoMedicamentosa;
     }
-
-
 
 }
