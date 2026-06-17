@@ -1,0 +1,29 @@
+[
+  {
+    "nome": "Paracetamol",
+    "classeTerapeutica": "Analgésico",
+    "mecanismodeAcao": "Inibe a síntese de prostaglandinas",
+    "indicacao": "Alívio da dor e febre",
+    "contraIndicacao": "Hipersensibilidade ao medicamento",
+    "efeitosColaterais": "Náuseas, vômitos, reações alérgicas",
+    "interacaoMedicamentosa": "Pode aumentar o risco de sangramento quando usado com anticoagulantes"
+  },
+  {
+    "nome": "Paracetamol",
+    "classeTerapeutica": "Analgésico",
+    "mecanismodeAcao": "Inibe a síntese de prostaglandinas",
+    "indicacao": "Alívio da dor e febre",
+    "contraIndicacao": "Hipersensibilidade ao medicamento",
+    "efeitosColaterais": "Náuseas, vômitos, reações alérgicas",
+    "interacaoMedicamentosa": "Pode aumentar o risco de sangramento quando usado com anticoagulantes"
+  },
+  {
+    "nome": "Dipirona",
+    "classeTerapeutica": "Analgesico",
+    "mecanismodeAcao": "Prostaglandina",
+    "indicacao": "Febre e dor",
+    "contraIndicacao": "Alergia",
+    "efeitosColaterais": "hIPOTENS�O",
+    "interacaoMedicamentosa": "aLCOOL"
+  }
+]

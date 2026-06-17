@@ -1,14 +1,12 @@
 import java.util.ArrayList;
 import java.util.Scanner; //leitor de teclado
+import medicamento.GerenciadorDados;
 import medicamento.Medicamento; //ve como é a estrutura do objeto medicamento
 
 public class Principal {
     public static void main(String[] args) {
        Scanner leitor = new Scanner(System.in); //mecanismo que monitora o teclado
-       ArrayList<Medicamento> baseDeDados = new ArrayList<>(); //lista na RAM que armazena objetos medicamento
-    
-       // newMedicamento ativa o construtor da classe Medicamento e cria o objeto na hora e .add adiciona ele no arraylist da lista base de dados
-       baseDeDados.add(new Medicamento("Paracetamol", "Analgésico", "Inibe a síntese de prostaglandinas", "Alívio da dor e febre", "Hipersensibilidade ao medicamento", "Náuseas, vômitos, reações alérgicas", "Pode aumentar o risco de sangramento quando usado com anticoagulantes"));
+       ArrayList<Medicamento> baseDeDados = GerenciadorDados.carregarMedicamentos(); //lista na RAM que armazena objetos medicamento
        
        int opcao = 0; //variável para guardar a escolha do usuário
        while (opcao != 3) { // enquanto for diferente de 3 repita o que esta aqui dentro para que nao feche já que a opção 3 é sair
@@ -44,7 +42,8 @@ public class Principal {
                    String interacaoMedicamentosa = leitor.nextLine();
                     // cria um novo medicamento
                    Medicamento novoMedicamento = new Medicamento(nome, classeTerapeutica, mecanismodeAcao, indicacao, contraIndicacao, efeitosColaterais, interacaoMedicamentosa);
-                   baseDeDados.add(novoMedicamento); // insere o novo objeto no final da lista
+                   baseDeDados.add(novoMedicamento);
+                   GerenciadorDados.salvarMedicamentos(baseDeDados); // insere o novo objeto no final da lista
                    System.out.println("Medicamento cadastrado com sucesso!");
                    break; //fim do case 1, sai do switch e volta para o while
 
