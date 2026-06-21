@@ -1,29 +1,35 @@
 [
   {
-    "nome": "Paracetamol",
-    "classeTerapeutica": "Analgésico",
-    "mecanismodeAcao": "Inibe a síntese de prostaglandinas",
-    "indicacao": "Alívio da dor e febre",
-    "contraIndicacao": "Hipersensibilidade ao medicamento",
-    "efeitosColaterais": "Náuseas, vômitos, reações alérgicas",
-    "interacaoMedicamentosa": "Pode aumentar o risco de sangramento quando usado com anticoagulantes"
-  },
-  {
-    "nome": "Paracetamol",
-    "classeTerapeutica": "Analgésico",
-    "mecanismodeAcao": "Inibe a síntese de prostaglandinas",
-    "indicacao": "Alívio da dor e febre",
-    "contraIndicacao": "Hipersensibilidade ao medicamento",
-    "efeitosColaterais": "Náuseas, vômitos, reações alérgicas",
-    "interacaoMedicamentosa": "Pode aumentar o risco de sangramento quando usado com anticoagulantes"
-  },
-  {
+    "id": 1,
     "nome": "Dipirona",
-    "classeTerapeutica": "Analgesico",
+    "classeTerapeutica": "Analg�sico",
+    "mecanismodeAcao": "Prostaglandinas",
+    "indicacao": "Febre e dor",
+    "contraIndicacao": "Alergia",
+    "efeitosColaterais": "Hipotens�o",
+    "interacaoMedicamentosa": "Anti-inflamat�rios",
+    "apresentacao": "Comprimido"
+  },
+  {
+    "id": 2,
+    "nome": "Dipirona",
+    "classeTerapeutica": "Analg�sico",
     "mecanismodeAcao": "Prostaglandina",
     "indicacao": "Febre e dor",
     "contraIndicacao": "Alergia",
-    "efeitosColaterais": "hIPOTENS�O",
-    "interacaoMedicamentosa": "aLCOOL"
+    "efeitosColaterais": "Hipotens�o",
+    "interacaoMedicamentosa": "Alcool e anti-inflamatorio",
+    "apresentacao": "Xarope"
+  },
+  {
+    "id": 3,
+    "nome": "Dipirona",
+    "classeTerapeutica": "Analg�sico",
+    "mecanismodeAcao": "Prostaglandina",
+    "indicacao": "Febre e dor",
+    "contraIndicacao": "Alergia",
+    "efeitosColaterais": "Hipotens�o",
+    "interacaoMedicamentosa": "Alcool",
+    "apresentacao": "Gotas"
   }
 ]
